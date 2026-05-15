@@ -71,3 +71,33 @@ export default defineConfig([
   },
 ])
 ```
+
+# 🌦️ React Weather Dashboard
+
+A professional weather forecasting application built with **React**, **TypeScript**, and **Redux Toolkit**. This project demonstrates scalable architecture, clean UI design, and robust state management.
+
+## 🚀 Features
+* **City Search:** Real-time weather data for any city globally.
+* **5-Day Forecast:** Organized display of upcoming weather trends.
+* **State Management:** Handled via **Redux Toolkit (RTK)** for predictable data flow.
+* **Responsive UI:** Fully optimized for Mobile, Tablet, and Desktop using **Tailwind CSS**.
+* **Error Handling:** Custom states for "City Not Found," "Loading," and "Network Issues."
+
+## 🛠️ Tech Stack
+* **Frontend:** React 19 + TypeScript
+* **Build Tool:** Vite
+* **State:** Redux Toolkit (Async Thunks for API calls)
+* **API:** OpenWeatherMap API
+* **Styling:** Tailwind CSS
+
+## 📦 Setup & Installation
+
+1. **Clone the repo:**
+   ```bash
+   git clone [https://github.com/YOUR_USERNAME/YOUR_REPO_NAME.git](https://github.com/Gmohan1011/weather_app)
+
+Install dependencies: npm install
+
+Environment Variables: VITE_WEATHER_API_KEY=your_api_key_here
+
+Run the app: npm run dev
